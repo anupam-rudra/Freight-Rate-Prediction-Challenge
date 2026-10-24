@@ -20,6 +20,8 @@ Predicts `posted_rate` (USD) for freight loads. The final model is a **Ridge + L
     └── ridge_vs_hybrid.csv  # model-comparison tables written by the notebook
     └── december_chart_inputs.csv   # FINAL OUTPUT: chart rows with predicted_rate
     └── validation_predictions.csv  # FINAL OUTPUT: load_id,predicted_rate (12,000 rows)
+    └── Load_Rate_Model_Report.pdf  # FINAL Report of the Assignment
+    └── candidate_december.png      # The scorer(score.py) validated results 
 ```
 ```
 
