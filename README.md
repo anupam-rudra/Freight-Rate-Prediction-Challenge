@@ -9,14 +9,16 @@ Predicts `posted_rate` (USD) for freight loads. The final model is a **Ridge + L
 ├── Model.ipynb                     # full pipeline: clean -> features -> compare models -> predict
 ├── score.py                        # provided scorer
 ├── requirements.txt
-├── validation_predictions.csv      # FINAL OUTPUT: load_id,predicted_rate (12,000 rows)
 ├── data/
 │   ├── train-test.csv              # labeled development data (input)
 │   ├── validation.csv              # loads to predict (input)
 │   ├── validation-predictions-template.csv  (input)
 │   ├── december-chart-inputs.csv   # chart rows without predictions (input)
-│   └── december_chart_inputs.csv   # FINAL OUTPUT: chart rows with predicted_rate
+│   
 └── outputs/                        # model-comparison tables written by the notebook
+    └── december_chart_inputs.csv   # FINAL OUTPUT: chart rows with predicted_rate
+    └── validation_predictions.csv  # FINAL OUTPUT: load_id,predicted_rate (12,000 rows)
+```
 ```
 
 ## Setup and run
