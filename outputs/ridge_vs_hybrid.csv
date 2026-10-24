@@ -1,0 +1,3 @@
+model,MAE_all,RMSE_all,MAE_clean,RMSE_clean,MAPE_clean
+Ridge,105.29,633.06,53.21,159.49,2.31
+Hybrid,104.66,633.13,52.6,159.38,2.25
