@@ -15,7 +15,9 @@ Predicts `posted_rate` (USD) for freight loads. The final model is a **Ridge + L
 │   ├── validation-predictions-template.csv  (input)
 │   ├── december-chart-inputs.csv   # chart rows without predictions (input)
 │   
-└── outputs/                        # model-comparison tables written by the notebook
+└── outputs/                       
+    └── ridge_alpha_comparison.csv  # model-comparison tables written by the notebook
+    └── ridge_vs_hybrid.csv  # model-comparison tables written by the notebook
     └── december_chart_inputs.csv   # FINAL OUTPUT: chart rows with predicted_rate
     └── validation_predictions.csv  # FINAL OUTPUT: load_id,predicted_rate (12,000 rows)
 ```
